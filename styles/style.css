@@ -1,13 +1,7 @@
 /* Primary blue: #00426e */
 
-.banner {
-  background-color: #52b391;
-  padding: 50px 0;
-  color: white;
-}
-
 footer {
-  margin-top: 25px !important;
+  box-shadow: 0 -5px 5px 0 rgba(76, 82, 103, 0.1);
   padding: 50px 0;
   color: white;
 }
@@ -16,10 +10,34 @@ footer.row {
   background-color: #00426e;
 }
 
+.banner {
+  background-color: #52b391;
+  padding: 50px 0;
+  color: white;
+}
+
+/* Bootstrap Overrides */
+.card {
+  box-shadow: 0 0 15px 0 rgba(76, 82, 103, 0.4);
+  text-align: center;
+}
+
 .card-img-top {
   margin-top: 10px;
 }
 
 .number {
   color: #b3d57d;
+}
+
+.bg-primary {
+  background-color: #00426e !important;
+}
+
+.bg-secondary {
+  background-color: #48a9c5 !important;
+}
+
+.bg-success {
+  background-color: #52b391 !important;
 }
