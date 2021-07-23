@@ -1,3 +1,13 @@
+html,
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: "Indie Flower", cursive;
+}
+
 /* Primary blue: #00426e */
 
 footer {
@@ -17,6 +27,16 @@ footer.row {
 }
 
 /* Bootstrap Overrides */
+.accordion-button {
+  font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #52b391;
+  background-color: #52b39123;
+  box-shadow: rgb(0 0 0 / 13%) 0px -1px 0px inset;
+}
+
 .card {
   box-shadow: 0 0 15px 0 rgba(76, 82, 103, 0.4);
   text-align: center;
@@ -40,4 +60,17 @@ footer.row {
 
 .bg-success {
   background-color: #52b391 !important;
+}
+
+.bg-info {
+  background-color: #b3d57d !important;
+}
+
+.btn {
+  padding: 10px 32px;
+  border-width: 3px;
+}
+
+.btn-outline-light:hover {
+  background-color: transparent;
 }
