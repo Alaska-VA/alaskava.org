@@ -2,11 +2,21 @@ html,
 body {
   font-family: "Quicksand", sans-serif;
   font-weight: 200;
+  overflow-x: hidden;
 }
 
 h1 {
   font-size: 3em;
   font-family: "Poiret One", cursive;
+}
+
+a,
+a::after {
+  color: white;
+}
+
+a:hover {
+  color: #d0d0d0;
 }
 
 /* Primary blue: #00426e */
@@ -23,6 +33,7 @@ footer.row {
 
 .banner {
   background-color: #52b391;
+  text-align: center;
   padding: 50px 0;
   color: white;
 }
