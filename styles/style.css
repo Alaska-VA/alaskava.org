@@ -1,11 +1,12 @@
 html,
 body {
   font-family: "Quicksand", sans-serif;
+  font-weight: 200;
 }
 
 h1 {
   font-size: 3em;
-  font-family: "Indie Flower", cursive;
+  font-family: "Poiret One", cursive;
 }
 
 /* Primary blue: #00426e */
@@ -37,6 +38,12 @@ footer.row {
   box-shadow: rgb(0 0 0 / 13%) 0px -1px 0px inset;
 }
 
+.carousel-caption {
+  background-color: white;
+  color: #00426e;
+  opacity: 75%;
+}
+
 .card {
   box-shadow: 0 0 15px 0 rgba(76, 82, 103, 0.4);
   text-align: center;
@@ -48,6 +55,7 @@ footer.row {
 
 .number {
   color: #b3d57d;
+  font-weight: bold;
 }
 
 .bg-primary {
