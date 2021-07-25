@@ -38,6 +38,23 @@ footer.row {
   color: white;
 }
 
+.gallery .card-body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
+  visibility: hidden;
+  background-color: transparent;
+  transition-duration: 0.2s;
+  opacity: 0;
+}
+
+.gallery .card:hover .card-body {
+  visibility: visible;
+  background-color: #48a9c5 !important;
+  opacity: 0.75;
+}
+
 /* Bootstrap Overrides */
 .accordion-button {
   font-weight: bold;
@@ -55,7 +72,7 @@ footer.row {
   opacity: 75%;
 }
 
-.card {
+.col > .card {
   box-shadow: 0 0 15px 0 rgba(76, 82, 103, 0.4);
   text-align: center;
 }
