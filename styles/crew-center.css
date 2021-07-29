@@ -1,9 +1,21 @@
+.alert.alert-info {
+    background-color: #48A9C5;
+}
+
 .btn-primary {
     background-color: #2774AE;
 }
 
 .btn-primary:hover {
     background-color: #48A9C5;
+}
+
+.btn-success {
+    background-color: #53B390;
+}
+
+.btn-success:hover {
+    background-color: rgba(83, 179, 144, 0.75);
 }
 
 @media (min-width: 1025px) {
@@ -13,6 +25,9 @@
 
     .kt-header-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--here > .kt-menu__link {
         background-color: #B3D57D;
+    }
+
+    .kt-header-menu .kt-menu__nav > .kt-menu__item > .kt-menu__link .kt-menu__link-text {
         color: white;
     }
 }
