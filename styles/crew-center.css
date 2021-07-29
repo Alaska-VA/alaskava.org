@@ -53,6 +53,14 @@ a:hover {
     color: #c4c4c4;
 }
 
+.kt-footer .kt-footer__bottom .kt-footer__menu a:hover {
+    background-color: #2774AE;
+}
+
 .nav-pills .nav-item .nav-link:active, .nav-pills .nav-item .nav-link.active, .nav-pills .nav-item .nav-link.active:hover {
     background-color: #2774AE;
+}
+
+.kt-footer .kt-footer__bottom {
+    background-color: #01426A;
 }
