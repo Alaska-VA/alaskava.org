@@ -1,9 +1,9 @@
 a {
-    color: #01426A;
+    color: #48A9C5;
 }
 
 a:hover {
-    color: #48A9C5;
+    color: rgba(72, 170, 197, 0.808);
 }
 
 .alert.alert-info {
@@ -29,6 +29,16 @@ a:hover {
 .btn-success:hover {
     background-color: rgba(83, 179, 144, 0.75);
     border-color: rgba(83, 179, 144, 0.75);
+}
+
+.btn-info {
+    background-color: #48A9C5;
+    border-color: #48A9C5;
+}
+
+.btn-info:hover {
+    background-color: rgba(72, 170, 197, 0.808);
+    border-color: rgba(72, 170, 197, 0.808);
 }
 
 .primary-background {
