@@ -1,5 +1,22 @@
+.btn-primary {
+    background-color: #2774AE;
+}
+
+.btn-primary:hover {
+    background-color: #48A9C5;
+}
+
 @media (min-width: 1025px) {
-    .kt-header {
+    .kt-header, .kt-header .kt-header__bottom {
         background-color: #01426A;
     }
+
+    .kt-header-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--here > .kt-menu__link {
+        background-color: #B3D57D;
+        color: white;
+    }
+}
+
+.kt-header__topbar .kt-header__topbar-item.kt-header__topbar-item--user .kt-header__topbar-welcome {
+    color: #c4c4c4;
 }
