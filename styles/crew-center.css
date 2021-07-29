@@ -50,12 +50,22 @@ a:hover {
         background-color: #01426A;
     }
 
+    /* Navbar button */
     .kt-header-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--here > .kt-menu__link {
         background-color: #B3D57D;
     }
 
+    /* Navbar button hover */
+    .kt-header-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--here > .kt-menu__link:hover {
+        background-color: #b3d57dbe;
+    }
+
     .kt-header-menu .kt-menu__nav > .kt-menu__item > .kt-menu__link .kt-menu__link-text {
         color: white;
+    }
+
+    .kt-header-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu > .kt-menu__subnav > .kt-menu__item > .kt-menu__link .kt-menu__link-text:hover {
+        background-color: #B3D57D;
     }
 }
 
@@ -73,4 +83,8 @@ a:hover {
 
 .kt-footer .kt-footer__bottom {
     background-color: #01426A;
+}
+
+.multiselect__option--highlight {
+    background-color: #2774AE;
 }
