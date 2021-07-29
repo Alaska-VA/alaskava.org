@@ -1,3 +1,5 @@
-.kt-header-mobile {
-    background-color: #01426a !important;
+@media (min-width: 1025px) {
+    .kt-header {
+        background-color: #01426A;
+    }
 }
