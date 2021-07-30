@@ -20,7 +20,6 @@ a:hover {
 }
 
 /* Primary blue: #00426e */
-
 footer {
   box-shadow: 0 -5px 5px 0 rgba(76, 82, 103, 0.1);
   padding: 50px 0;
@@ -53,6 +52,11 @@ footer.row {
   visibility: visible;
   background-color: #48a9c5 !important;
   opacity: 0.75;
+}
+
+.profile-img {
+  width: 75%;
+  margin: 10px;
 }
 
 /* Bootstrap Overrides */
@@ -118,4 +122,12 @@ footer.row {
 
 .btn-outline-light:hover {
   background-color: transparent;
+}
+
+.text-secondary {
+  color: #48A9C5 !important;
+}
+
+.text-success {
+  color: #53B390 !important;
 }
