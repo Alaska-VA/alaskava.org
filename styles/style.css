@@ -1,13 +1,17 @@
 html,
 body {
   font-family: "Quicksand", sans-serif;
-  font-weight: 200;
+  color: #01426A;
   overflow-x: hidden;
 }
 
 h1 {
   font-size: 3em;
   font-family: "Poiret One", cursive;
+}
+
+h2 {
+  font-weight: bold;
 }
 
 a,
@@ -130,4 +134,8 @@ footer.row {
 
 .text-success {
   color: #53B390 !important;
+}
+
+.text-info {
+  color: #B3D57D !important;
 }
