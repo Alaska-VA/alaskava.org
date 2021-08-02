@@ -34,6 +34,15 @@ footer.row {
   background-color: #01426A;
 }
 
+ul {
+  list-style-type: none; 
+  padding-left: 0;
+}
+
+ul.fleet-list h5 {
+  font-weight: bold;
+}
+
 .banner {
   background-color: #52b391;
   text-align: center;
@@ -61,6 +70,12 @@ footer.row {
 .profile-img {
   width: 75%;
   margin: 10px;
+}
+
+#fleet .card {
+  background-color: #e6eefa;
+  box-shadow: none;
+  border: none;
 }
 
 /* Bootstrap Overrides */
@@ -94,7 +109,7 @@ footer.row {
   text-align: center;
 }
 
-.card-img-top {
+.bi.card-img-top {
   margin-top: 10px;
 }
 
@@ -126,6 +141,10 @@ footer.row {
 
 .btn-outline-light:hover {
   background-color: transparent;
+}
+
+.text-primary {
+  color: #01426A !important;
 }
 
 .text-secondary {
