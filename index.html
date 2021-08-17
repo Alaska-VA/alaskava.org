@@ -77,6 +77,9 @@
                             <a class="nav-link" href="https://hub.alaskava.org">Crew Center</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="https://donorbox.org/alaskava" target="_blank">Donate</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="https://www.facebook.com/groups/1039432576590772/"><i
                                     class="bi bi-facebook"></i></a>
                         </li>
@@ -1031,12 +1034,6 @@
                     <a href="https://hcshires.github.io" target="_blank">Henry Shires</a>
                 </p>
             </div>
-            <div class="col-auto col-md-2">
-                <button class="btn btn-outline-light hvr-sweep-to-right" style="margin: 40px 0;"
-                    onclick="window.open('https://donorbox.org/alaskava');">
-                    Donate
-                </button>
-            </div>
         </footer>
     </div>
 
@@ -1052,7 +1049,7 @@
          */
         async function getStats() {
             await $.getJSON('https://vamsys.io/statistics/c572641d-bf0e-4aa8-a1c1-ab7e419101e8', function (data) {
-                $("#pilots").html(data.pilots);
+                $("#pilots").html(data.pilots - 3);
                 $("#flight_time").html(data.flight_time_time.substring(0, data.flight_time_time.indexOf(":")));
                 $("#pireps").html(data.pireps);
                 $("#aircraft").html(data.aircraft);

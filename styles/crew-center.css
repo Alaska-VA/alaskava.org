@@ -6,7 +6,7 @@ a:hover {
     color: rgba(72, 170, 197, 0.808);
 }
 
-.alert.alert-info {
+.alert.alert-info, .alert.alert-primary {
     background-color: #48A9C5;
     border-color: #48A9C5;
 }
